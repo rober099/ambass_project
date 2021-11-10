@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%)fixed;
+}
+
+header {
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+  margin-top: 0;
+  padding-left: 1em;
+  padding-right: 1.75em;
+}
+
+.home header {
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+}
+
+.home_head{
+  width: 400px;
+}
+
+.oven_img img{
+  height: 400px;
+}
+.oven_img{
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+}
+.card1 h1{
+  text-align: center;
+  height: 50%;
+  padding-top: 45px;
+
+}
+.card1{
+  margin: 10px;
+  height: 20%;
+  background: linear-gradient(90.67deg, #F86613 23.54%, #FC0E0E 46.81%, #791A01 71.08%);
+}
+.card2{
+  margin: 10px;
+  height: 40%;
+  background: linear-gradient(90.67deg, #F86613 23.54%, #FC0E0E 46.81%, #791A01 71.08%);
+}
+.card2 button{
+  width: 20%;
+  height: 30%;
+  background-color:#F86613;
+  float: right;
+}
+.card2 div{
+  height: 65%;
+  margin-right: 250px;
+}
+.card3{
+  margin: 10px;
+  height: 60%;
+  background: linear-gradient(90.67deg, #F86613 23.54%, #FC0E0E 46.81%, #791A01 71.08%);
+}
+.card3 p{
+  width: 50%;
+font-size:20px;
+}
+
+.map{
+  width: 30%;
+  padding-right: 200px;
+  float: right;
+}
+header ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-family: "Rock Salt", sans-serif;
+}
+.home section {
+  background-image: url("/Users/imissmia/Desktop/Spring 2021/Fall 2021/Art 477/ambas_project/files/main_image.png");
+  background-size: cover;
+  background-position: center top;
+  /* background-position-x */
+  background-repeat: no-repeat;
+  height: 43vw;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+/*  footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 1em;
+  background: linear-gradient(180deg, #b00afe 0%, #07f5e7 100%);
+}
+
+.home footer {
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+}
+
+footer > div {
+  flex: 1;
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+  padding: 1em;
+  text-align: center;
+}
+
+.home footer > div {
+  background: linear-gradient(0deg, #791A01 17.04%, #AD6C30 71.96%);
+}
+
+footer > div > h3 {
+  margin-top: 0;
+}
+
+footer > div a:link {
+  color: white;
+}
+
+.social-icon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.social-icon {
+  dispay: flex;
+  align-items: center;
+  colum-gap: 0.5m;
+}
+
+.social-icon svg {
+  width: 30px;
+}
+
+.social-icon > a:nth-child(2),
+.social-icon > a:nth-child(2):link,
+.social-icon > a:nth-child(2):visited {
+}
